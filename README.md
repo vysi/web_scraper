@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Prerequisites
+Ruby 2.7.2
 
-Things you may want to cover:
+Rails 6.0.3.4
 
-* Ruby version
+### Installation
 
-* System dependencies
+Follow below steps:
 
-* Configuration
+git clone https://github.com/vysi/web_scraper.git
 
-* Database creation
+cd web-scraper
 
-* Database initialization
+bundle install
 
-* How to run the test suite
+rails db:create
 
-* Services (job queues, cache servers, search engines, etc.)
+rails db:migrate
 
-* Deployment instructions
+rails s
 
-* ...
+open http://localhost:3000
